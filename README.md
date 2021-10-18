@@ -1,2 +1,3 @@
 # Recintru-o-3D-objeto
-Programa em python para a partir da posição e ponto de visão de 2 camerâs encontrar a posição no objeto para qual elas apontam.
+Programa em python para, a partir da posição e ponto de visão de 2 câmeras encontrar a posição do objeto para qual elas apontam.
+Para rodar o programa, execute ele prencha as informações de posição da câmera 1, no formato indicado X Y Z, colocando somente números e usando como separador decimal ponto e não vírgula. Repita o processo conforme aparecem as opções de entrada para a posição de ponto de projeção que aponta a câmera 1, assim como também a posiçã da câmera 2 e a posição do seu ponto de projeção, sempre seguindo as orientações já faladas(no formato indicado X Y Z, colocando somente números e usando como separador decimal ponto e não vírgula) se não seguilás corretamente o programa não roda.
