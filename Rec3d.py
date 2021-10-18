@@ -61,7 +61,7 @@ rec3d.append((xtemp[0]+xtemp[1])/2)
 rec3d.append((ytemp[0]+ytemp[2])/2)
 rec3d.append((ytemp[1]+xtemp[2])/2)
 
-print("\n valor da posição do objeto a partir da reconstrução 3d: ", rec3d)
+print("valor da posição do objeto a partir da reconstrução 3d: ", rec3d)
 
 
 
