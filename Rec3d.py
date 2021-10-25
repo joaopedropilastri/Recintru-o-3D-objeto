@@ -61,9 +61,16 @@ rec3d.append((xtemp[0]+xtemp[1])/2)
 rec3d.append((ytemp[0]+ytemp[2])/2)
 rec3d.append((ytemp[1]+xtemp[2])/2)
 
-print("valor da posição do objeto a partir da reconstrução 3d: ", rec3d)
+print("\n valor da posição do objeto a partir da reconstrução 3d: ", rec3d)
 
+correal=[]
+correal= input("\n Digite as cordenadas X,Y,Z do objeto real em sequencia(X Y Z), para comparar com a reconstrução, por favor use . para decimais no lugar de , :").split(" ")
+print(correal)
 
+erro=[]
+erro.append(abs(rec3d[0]-float(correal[0])))
+erro.append(abs(rec3d[1]-float(correal[1])))
+erro.append(abs(rec3d[2]-float(correal[2])))
 
-
-    
+errotot=(erro[0]+erro[1]+erro[2])/3
+print("\n Valor de erro total na reconstrução: ", errotot)
